@@ -178,6 +178,18 @@ $ sh ~/.vim_runtime/install_awesome_vimrc.sh
 $ sh ~/.vim_runtime/install_basic_vimrc.sh
 ```
 
+## Linux Mint 19 한글 입력 [here](http://blog.daum.net/bagjunggyu/311)
+
+[key settings](https://rageworx.tistory.com/1757)
+
+```bash
+$ sudo apt-add-repository ppa:hodong/nimf
+$ apt update
+$ apt install nimf nimf-libhangul
+$ im-config -n nimf
+$ apt autoremove fcitx-*
+```
+
 ## Welcome message
 
 Install figlet
