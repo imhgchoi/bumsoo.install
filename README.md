@@ -219,7 +219,7 @@ password [:password]
 * git alias settings
 
 ```bash
-$ git config --global alias.last 'log -p -2 HEAD'
+$ git config --global alias.last 'log -p -1 HEAD'
 $ git config --global alias.lg 'log --pretty=format:"%h - %an, %ar : %s"' # [hash / name / date / msg]
 $ git config --global alias.lg 'log --pretty=format:"%h - %an : %s" --graph' # [hash / name / msg]
 ```
