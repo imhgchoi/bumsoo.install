@@ -178,6 +178,13 @@ $ sh ~/.vim_runtime/install_awesome_vimrc.sh
 $ sh ~/.vim_runtime/install_basic_vimrc.sh
 ```
 
+* Disable vim folding
+```bash
+$ vi ~/.vimrc
+
+set nofoldenable
+```
+
 ## Linux Mint 19 한글 입력 [here](http://blog.daum.net/bagjunggyu/311)
 
 [key settings](https://rageworx.tistory.com/1757)
