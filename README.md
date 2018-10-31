@@ -220,7 +220,7 @@ password [:password]
 
 ```bash
 $ git config --global alias.last 'log -p -2 HEAD'
-$ git log --pretty=format:"%h - %an, %ar : %s"
+$ git config --global alias.lg 'log --pretty=format:"%h - %an, %ar : %s"'
 ```
 
 ## Jupyter notebook configuration
