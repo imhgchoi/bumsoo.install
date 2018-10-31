@@ -216,6 +216,12 @@ login [:username]
 password [:password]
 ```
 
+* Git initial settings
+```bash
+$ git config --global user.name "[:user_name]"
+$ git config --global user.email [:user_email]
+```
+
 * git alias settings
 
 ```bash
