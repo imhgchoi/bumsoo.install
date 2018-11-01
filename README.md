@@ -197,6 +197,12 @@ $ im-config -n nimf
 $ apt autoremove fcitx-*
 ```
 
+Set <RAlt> as 'Hangul'
+
+```bash
+$ sudo xed /usr/share/X11/xkb/symbols/altwin
+```
+
 ## Welcome message
 
 Install figlet
