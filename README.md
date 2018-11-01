@@ -200,7 +200,15 @@ $ apt autoremove fcitx-*
 Set <RAlt> as 'Hangul'
 
 ```bash
-$ sudo xed /usr/share/X11/xkb/symbols/altwin
+$ sudo vi /usr/share/X11/xkb/symbols/altwin
+
+# Line 5
+key <RALT> { type[Group1] = "TWO_LEVEL",
+             symbols[Group1] = [Alt_R, Meta_R] };
+
+# Change the above lines into
+key <RALT> { type[Group1] = "TWO_LEVEL",
+             symbols[Group1] = [ Hangul ] };
 ```
 
 ## Welcome message
@@ -251,8 +259,7 @@ $ git config --global user.email [:user_email]
 
 ```bash
 $ git config --global alias.last 'log -p -1 HEAD'
-$ git config --global alias.lg 'log --pretty=format:"%h - %an, %ar : %s"' # [hash / name / date / msg]
-$ git config --global alias.lg 'log --pretty=format:"%h - %an : %s" --graph' # [hash / name / msg]
+$ git config --global alias.lg 'log -10 --pretty=format:"%h - %an : %s" --graph' # [hash / name / msg]
 ```
 
 ## Jupyter notebook configuration
