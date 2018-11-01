@@ -143,9 +143,9 @@ $ nvcc --version
 
 * (Result)
 nvcc: NVIDIA (R) Cuda compiler driver
-Copyright (c) 2005-2016 NVIDIA Corporation
-Built on Sun_Sep__4_22:14:01_CDT_2016
-Cuda compilation tools, release 8.0, V8.0.44
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Sep__1_21:08:03_CDT_2017
+Cuda compilation tools, release 9.0, V9.0.176
 ```
 
 ## 3. Install cuDNN library kit
