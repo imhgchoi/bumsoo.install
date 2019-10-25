@@ -297,4 +297,14 @@ c.NotebookApp.port = 9999
 
 ```
 
+## Extract and Download Anaconda Environments
+
+```bash
+# Export
+conda env export > environment.yml
+
+# Download
+conda env create -f environment.yml
+```
+
 Now, Enjoy! :)
