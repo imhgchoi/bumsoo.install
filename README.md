@@ -296,6 +296,10 @@ Erase the '#' and enter whatever port number you want
 c.NotebookApp.port = 9999
 
 ```
+## If python 3 is not there
+```
+python -m ipykernel install --user --name [virtualEnv] --display-name "[displayKenrelName]"
+```
 
 ## Extract and Download Anaconda Environments
 
